@@ -16,7 +16,6 @@
 
   <title>Proffy</title>
   <script src="../utils/format.js"></script>
-  <script src="../utils/give-classes.js"></script>
   <script src="../../public/scripts/addField.js" defer></script>
 </head>
 
@@ -123,27 +122,27 @@
 
             <div class="select-block">
               <label for="weekday">Dia da semana</label>
-              <select id="weekDay" required>
+              <select name="weekday[]" required>
                 <option value="">Selecione uma opção</option>
-                  <option value="domingo">
+                  <option value="">
                     Domingo
                   </option>
-                  <option value="segunda">
+                  <option value="">
                     Segunda-feira
                   </option>
-                  <option value="terca">
+                  <option value="">
                     Terça-feira
                   </option>
-                  <option value="quarta">
+                  <option value="">
                     Quarta-feira
                   </option>
-                  <option value="quinta">
+                  <option value="">
                     Quinta-feira
                   </option>
-                  <option value="sexta">
+                  <option value="">
                     Sexta-feira
                   </option>
-                  <option value="sabado">
+                  <option value="">
                     Sábado
                   </option>
               </select>
@@ -151,12 +150,12 @@
 
             <div class="input-block">
               <label for="time_from">Das</label>
-              <input type="time" name="time_from[]" id="timeFrom" required>
+              <input type="time" name="time_from[]" required>
             </div>
 
             <div class="input-block">
               <label for="time_to">Até</label>
-              <input type="time" name="time_to[]" id="timeTo" required>
+              <input type="time" name="time_to[]" required>
             </div>
 
           </div>
@@ -170,7 +169,7 @@
           <img src="../../public/images/icons/warning.svg" alt="Aviso importante">
           Importante! <br> Preencha todos os dados
         </p>
-        <button type="button" form="create-class" onclick="saveTeachersinLocalStorage()">Salvar cadastro</button>
+        <button type="submit" form="create-class">Salvar cadastro</button>
       </footer>
     </main>
   </div>

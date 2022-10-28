@@ -15,8 +15,7 @@
   <link rel="stylesheet" href="../../public/styles/partials/page-give-classes.css">
 
   <title>Proffy</title>
-  <script src="../utils/give-students.js"></script>
-  <script src="../utils/format.js"></script>
+  <script src="../../public/scripts/addField.js" defer></script>
 </head>
 
 <body id="page-give-classes">
@@ -53,7 +52,7 @@
 
           <div class="input-block">
             <label for="whatsapp">WhatsApp <small>(somente números)</small></label>
-            <input name="whatsapp" id="whatsapp" type="tel" maxlength="15" onkeyup="handlePhone(event)" required>
+            <input name="whatsapp" id="whatsapp" type="number" required>
           </div>
 
           <div class="textarea-block">
@@ -68,7 +67,7 @@
           <img src="../../public/images/icons/warning.svg" alt="Aviso importante">
           Importante! <br> Preencha todos os dados
         </p>
-        <button type="button" form="create-class" onclick="saveStudentsinLocalStorage()">Salvar cadastro</button>
+        <button type="submit" form="create-class">Salvar cadastro</button>
       </footer>
     </main>
   </div>
