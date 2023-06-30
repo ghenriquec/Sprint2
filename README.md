@@ -1,6 +1,6 @@
 # Telas de Cadastro - Trabalho Interdisciplinar
 
-Este é o README para as duas telas de cadastro desenvolvidas como parte do trabalho interdisciplinar. As telas foram criadas para permitir que os usuários realizem o cadastro de informações relevantes para o projeto em questão. Este documento fornecerá informações sobre as funcionalidades das telas, os requisitos, a execução do projeto e outras observações importantes.
+Duas telas de cadastro desenvolvidas como parte do trabalho interdisciplinar. As telas foram criadas para permitir que os usuários realizem o cadastro de informações relevantes para o projeto em questão. Este documento fornecerá informações sobre as funcionalidades das telas, os requisitos, a execução do projeto e outras observações importantes.
 
 ## Requisitos
 
